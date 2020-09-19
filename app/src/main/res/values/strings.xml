@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My cat</string>
+    <string name="fitme">I want to eat</string>
+    <string name="edit_hello">hello</string>
+    <string name="buttonHelloText">Say meow</string>
+    <string name="buttonCounterText">Feed</string>
+    <string name="say_meow_text">Meow!</string>
+    <string name="on_press_cat_text">I\'m happy!</string>
+    <string name="feed_cat">\"Eat: \"</string>
+</resources>
