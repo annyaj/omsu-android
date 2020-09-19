@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Candy shop</string>
+    <string name="unicorn_image_content">Sweet unicorn</string>
+    <string name="welcome_text">Welcome to my candy shop!</string>
+    <string name="about_text">
+        Nice to meet you!\n
+        We have the most <b>delicious</b> candies and beautiful <b>unicorns</b>!\n
+        We hope you enjoy it.
+   </string>
+    <string name="about_title">About us</string>
+</resources>
