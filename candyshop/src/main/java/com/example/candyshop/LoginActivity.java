@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class LoginActivity extends AppCompatActivity {
+    public static final String AFTER_LOGIN_ACTIVITY = "com.example.candyshop.AfterLoginActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +22,7 @@ public class LoginActivity extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(LoginActivity.this, QuestionaryActivity.class);
+                Intent intent = new Intent(AFTER_LOGIN_ACTIVITY);
                 String username = editText.getText().toString();
                 if ("".equals(username)) {
                     username = getString(R.string.fill_edit);
