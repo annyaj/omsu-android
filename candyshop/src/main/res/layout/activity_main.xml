@@ -13,11 +13,12 @@
         android:layout_height="329dp"
         android:backgroundTint="@color/pink_color"
         android:contentDescription="@string/unicorn_image_content"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/loginButtonMain"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.398"
         app:srcCompat="@drawable/unicorn" />
 
     <TextView
@@ -29,9 +30,24 @@
         android:textAlignment="center"
         android:textColor="@android:color/background_light"
         android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/unicornButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/loginButtonMain"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@color/light_blue_color"
+        android:text="@string/login_button_text"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/unicornButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

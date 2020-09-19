@@ -8,4 +8,17 @@
         We hope you enjoy it.
    </string>
     <string name="about_title">About us</string>
+    <string name="questionary_title">Questionary</string>
+    <string name="login_button_text">Log in</string>
+    <string name="edit_login_name">Username</string>
+    <string name="fill_edit">Sweet</string>
+    <string name="questionary_choose">Choose your favorite sweets ^_^</string>
+    <string name="questionary_hello">Hello, </string>
+    <string name="login_label">Login</string>
+    <string name="choose_text_what">What do you like best?</string>
+    <string name="choose_sweets_radio">sweets</string>
+    <string name="choose_cupcake_radio">cupcake</string>
+    <string name="choose_biscuits_radio">biscuits</string>
+    <string name="qyestionary_no_choosen">Oh, choose again</string>
+    <string name="questionary_choosen_text">Most of all you like </string>
 </resources>
