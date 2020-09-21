@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cats</string>
+    <string name="you_sleep">Are you sleeping?</string>
+    <string name="cat_content">it\'s a cat</string>
+    <string name="already_six">Already 6 am</string>
+    <string name="want_eat">We want to eat!</string>
+    <string name="meow">Meow</string>
+</resources>

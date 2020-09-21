@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink_color"
+    tools:context=".ChooseCandyActivity">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <RadioButton
+            android:id="@+id/choose_sweets"
+            style="@android:style/Widget.CompoundButton.RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="?android:attr/listChoiceIndicatorSingle"
+            android:buttonTint="@android:color/background_light"
+            android:text="@string/choose_sweets_radio"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/choose_cupcake"
+            style="@android:style/Widget.CompoundButton.RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="?android:attr/listChoiceIndicatorSingle"
+            android:buttonTint="@android:color/background_light"
+            android:text="@string/choose_cupcake_radio"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/choose_biscuits"
+            style="@android:style/Widget.CompoundButton.RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="?android:attr/listChoiceIndicatorSingle"
+            android:buttonTint="@android:color/background_light"
+            android:text="@string/choose_biscuits_radio"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:text="@string/choose_text_what"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

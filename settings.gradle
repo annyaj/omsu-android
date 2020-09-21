@@ -1,0 +1,6 @@
+include ':orientation'
+include ':candyshop'
+include ':cats'
+include ':trafficlights'
+include ':app'
+rootProject.name = "Hello world"
