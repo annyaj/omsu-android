@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
     <LinearLayout
-        android:orientation="vertical"
-        android:layout_height="wrap_content"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:orientation="vertical"
         android:paddingLeft="20dp"
         android:paddingRight="20dp">
 
@@ -20,8 +19,8 @@
             android:inputType="textShortMessage|none" />
 
         <TableLayout
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:stretchColumns="*">
 
@@ -61,19 +60,7 @@
 
             <TableRow>
 
-                <Button
-                    android:id="@+id/button5"
-                    style="@style/Widget.AppCompat.Button"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/button5_text" />
-
-                <Button
-                    android:id="@+id/button6"
-                    style="@style/Widget.AppCompat.Button"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/button6_text" />
+                <TextView android:id="@+id/text_orientation" />
             </TableRow>
         </TableLayout>
     </LinearLayout>
