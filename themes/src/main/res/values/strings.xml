@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Themes</string>
+    <string name="about_text">
+        Nice to meet you!\n
+        We have the most <b>delicious</b> candies and beautiful <b>unicorns</b>!\n
+        We hope you enjoy it.
+   </string>
+</resources>
