@@ -1,8 +1,16 @@
 <resources>
     <string name="app_name">Themes</string>
+    <string name="about_activity_label">About us</string>
     <string name="about_text">
         Nice to meet you!\n
         We have the most <b>delicious</b> candies and beautiful <b>unicorns</b>!\n
         We hope you enjoy it.
    </string>
+    <string name="button_about">about us</string>
+    <string name="edit_main_text">Email</string>
+    <string name="dialog_button_text">open dialog</string>
+    <string name="button_delete_text">delete</string>
+    <string name="button_cancel_text">cancel</string>
+    <string name="title_delete_item">Delete item</string>
+    <string name="message_delete_item">Sorry, you need to delete item</string>
 </resources>
