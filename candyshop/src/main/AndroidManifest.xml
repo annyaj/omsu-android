@@ -24,7 +24,7 @@
         </activity>
         <activity
             android:name=".AboutActivity"
-            android:label="@string/about_title">
+            android:label="@string/about_title" android:theme="@style/Theme.AppCompat.Dialog">
             <intent-filter>
                 <action android:name="com.example.candyshop.AfterLoginActivity" />
                 <category android:name="android.intent.category.DEFAULT" />
