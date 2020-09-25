@@ -1,3 +1,6 @@
+include ':basicactivity'
+include ':toasts'
+include ':themes'
 include ':orientation'
 include ':candyshop'
 include ':cats'

@@ -1,0 +1,64 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogCustom</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="AboutTheme" parent="@style/Theme.AppCompat.Dialog">
+        <item name="android:windowTitleStyle">@style/MyTitleStyle</item>
+    </style>
+
+    <style name="MyTitleStyle">
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="TextViewStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:background">@android:color/holo_green_light</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="TextViewStyle.Yellow">
+        <item name="android:background">#FFC107</item>
+    </style>
+
+    <style name="Email">
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ems">10</item>
+
+    </style>
+
+    <style name="MainButton">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/holo_green_light</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="AlertDialogCustom.Destructive">
+        <item name="android:buttonBarPositiveButtonStyle">@style/DestructiveButton</item>
+    </style>
+
+    <style name="DestructiveButton"
+        parent="android:Widget.DeviceDefault.Button.Borderless">
+        <item name="android:textColor">#DF0B0B</item>
+    </style>
+</resources>
