@@ -14,6 +14,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 import java.io.IOException;
 
 public class MainActivity extends AppCompatActivity {
@@ -28,16 +30,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button alarmButton = findViewById(R.id.alarm_button);
+        FloatingActionButton alarmButton = findViewById(R.id.alarm_button);
         alarmButton.setOnClickListener(onClickListener);
 
-        Button rainImageButton = findViewById(R.id.rain_button);
+        FloatingActionButton rainImageButton = findViewById(R.id.rain_button);
         rainImageButton.setOnClickListener(onClickListener);
 
-        Button toasterButton = findViewById(R.id.toaster_button);
+        FloatingActionButton toasterButton = findViewById(R.id.toaster_button);
         toasterButton.setOnClickListener(onClickListener);
 
-        Button toastsButton = findViewById(R.id.toasts_button);
+        FloatingActionButton toastsButton = findViewById(R.id.toasts_button);
         toastsButton.setOnClickListener(onClickListener);
     }
 
