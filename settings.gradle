@@ -1,3 +1,4 @@
+include ':simplepaint'
 include ':audiowork'
 include ':converter'
 include ':basicactivity'
