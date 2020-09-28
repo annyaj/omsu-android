@@ -1,3 +1,4 @@
+include ':audiowork'
 include ':converter'
 include ':basicactivity'
 include ':toasts'
