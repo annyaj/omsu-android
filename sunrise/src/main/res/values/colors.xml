@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorSunOrange">#ffff6600</color>
+    <color name="colorSunYellow">#ffffcc00</color>
+    <color name="colorSkyBlueDark">#ff000033</color>
+    <color name="colorSkyBlue">#ff0000ff</color>
+    <color name="colorGrassDark">#ff003300</color>
+    <color name="colorGrass">#ff009900</color>
+    <color name="colorClockWhite">#ffffffff</color>
+    <color name="colorClockGray">#66ffffff</color>
+    <color name="colorClockBlack">#99000000</color>
+</resources>

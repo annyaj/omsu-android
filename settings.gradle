@@ -1,3 +1,4 @@
+include ':sunrise'
 include ':simplepaint'
 include ':audiowork'
 include ':converter'
