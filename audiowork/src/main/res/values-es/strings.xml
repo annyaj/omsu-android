@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TrabajoDeAudio</string>
+    <string name="alarm_text">¡Buen día! \ n La alarma está sonando, es hora de levantarse.</string>
+    <string name="rain_text">Está nublado fuera de la ventana, n lluvia de otoño está cayendo.</string>
+    <string name="toaster_text">Pon el pan en la tostadora…</string>
+    <string name="toasts_text">¡Las tostadas están listas! Buen apetito!</string>
+</resources>
