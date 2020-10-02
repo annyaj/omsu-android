@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AudioWOrk</string>
+    <string name="alarm_text">Good morning! \n The alarm is ringing, it\'s time to get up.</string>
+    <string name="rain_text">It\'s cloudy outside the window, \n autumn rain is falling.</string>
+    <string name="toaster_text">Put the bread in the toaster…</string>
+    <string name="toasts_text">The toasts are ready! Bon appetite!</string>
+</resources>
