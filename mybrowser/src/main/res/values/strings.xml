@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyBrowser</string>
+    <string name="browser_button">open browser</string>
+    <string name="edit_text_url">https://www.google.com/</string>
 </resources>

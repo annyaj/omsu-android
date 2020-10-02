@@ -8,6 +8,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.webkit.WebResourceRequest;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
@@ -21,6 +22,8 @@ public class WebActivity extends AppCompatActivity {
 
         Uri url = getIntent().getData();
         WebView webView = findViewById(R.id.webView);
+        WebSettings webSettings = webView.getSettings();
+        webSettings.setJavaScriptEnabled(true);
         webView.setWebViewClient(new Callback());
         webView.loadUrl(url.toString());
     }
