@@ -1,3 +1,4 @@
+include ':texteditor'
 include ':referencebook'
 include ':lifecycle'
 include ':mybrowser'

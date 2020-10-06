@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="text_style">
+        <item>regular</item>
+        <item>bold</item>
+        <item>italic</item>
+        <item>bold+italic</item>
+    </string-array>
+
+</resources>
