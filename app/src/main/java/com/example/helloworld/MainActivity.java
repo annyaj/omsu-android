@@ -2,6 +2,8 @@ package com.example.helloworld;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -12,6 +14,8 @@ public class MainActivity extends AppCompatActivity {
     private TextView fmTextView;
     private EditText fmEditText;
     private int count;
+    private SharedPreferences preferences;
+    private static final String APP_PREFERENCES_COUNTER="counter";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
         );
+
+        preferences = getSharedPreferences("settings", Context.MODE_PRIVATE);
     }
 
     public void onPressButton(View view) {
@@ -40,5 +46,22 @@ public class MainActivity extends AppCompatActivity {
 
     public void onSayHello(View view) {
         fmTextView.setText(R.string.say_meow_text);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+
+        preferences.edit().putInt(APP_PREFERENCES_COUNTER, count).apply();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        if(preferences.contains(APP_PREFERENCES_COUNTER)){
+            count = preferences.getInt(APP_PREFERENCES_COUNTER, 0);
+            fmTextView.setText(String.format("Я насчитал %d ворон", count));
+        }
     }
 }
