@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:key="@string/pref_openmode"
+        android:summary="open file where application started"
+        android:title="open" />
+
+    <EditTextPreference
+        android:defaultValue="14"
+        android:dialogTitle="input font size (10 - 32)"
+        android:key="@string/pref_size"
+        android:summary="Set new font size"
+        android:title="Font size" />
+
+    <ListPreference
+        android:key="@string/pref_style"
+        android:title="Font style"
+        android:summary="Set font style"
+        android:defaultValue="1"
+        android:entries="@array/text_style"
+        android:entryValues="@array/text_style"
+        android:dialogTitle="Choose font style" />
+
+</PreferenceScreen>

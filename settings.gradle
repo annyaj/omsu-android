@@ -1,3 +1,6 @@
+include ':googlemaps'
+include ':maps'
+include ':texteditor'
 include ':referencebook'
 include ':lifecycle'
 include ':mybrowser'
