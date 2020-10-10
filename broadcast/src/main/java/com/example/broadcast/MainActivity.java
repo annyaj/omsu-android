@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,13 +13,14 @@ public class MainActivity extends AppCompatActivity {
     public static final String ALARM_MESSAGE = "Hello, my friends!";
 
     private MessageReceiver messageReceiver = new MessageReceiver();
-
+    private TimeBroadcastReceiver timeBroadCastReceiver = new TimeBroadcastReceiver();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        registerBroadcastReceiver();
+        this.registerReceiver(messageReceiver, new IntentFilter(
+                WHERE_MY_MSG_ACTION));
     }
 
     public void sendMessage(View view) {
@@ -29,8 +31,18 @@ public class MainActivity extends AppCompatActivity {
         sendBroadcast(intent);
     }
 
-    public void registerBroadcastReceiver() {
-        this.registerReceiver(messageReceiver, new IntentFilter(
-                WHERE_MY_MSG_ACTION));
+    public void registerBroadcastReceiver(View view) {
+        this.registerReceiver(timeBroadCastReceiver, new IntentFilter(
+                "android.intent.action.TIME_TICK"));
+        Toast.makeText(getApplicationContext(), "Receiver on",
+                Toast.LENGTH_SHORT).show();
+    }
+
+    // Отменяем регистрацию
+    public void unregisterBroadcastReceiver(View view) {
+        this.unregisterReceiver(timeBroadCastReceiver);
+
+        Toast.makeText(getApplicationContext(), "Receiver off", Toast.LENGTH_SHORT)
+                .show();
     }
 }
