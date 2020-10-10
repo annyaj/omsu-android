@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+
+    <string-array name="days">
+        <item>Day 1</item>
+        <item>Day 2</item>
+        <item>Day 3</item>
+        <item>Day 4</item>
+        <item>Day 5</item>
+        <item>Day 6</item>
+        <item>Day 7</item>
+        <item>Day 8</item>
+        <item>Day 9</item>
+        <item>Day 10</item>
+        <item>Day 11</item>
+        <item>Day 12</item>
+        <item>Day 13</item>
+        <item>Day 14</item>
+        <item>Day 15</item>
+    </string-array>
+</resources>
