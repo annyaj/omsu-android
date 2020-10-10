@@ -1,3 +1,4 @@
+include ':broadcast'
 include ':fragment'
 include ':googlemaps'
 include ':maps'
