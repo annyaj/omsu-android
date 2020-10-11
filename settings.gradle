@@ -1,3 +1,4 @@
+include ':database'
 include ':recyclerview'
 include ':broadcast'
 include ':fragment'
