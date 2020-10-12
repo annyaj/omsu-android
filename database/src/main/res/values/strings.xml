@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Database</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="text_main_info">main info</string>
+    <string name="text_name">name</string>
+    <string name="text_town">town</string>
+    <string name="text_gender">gender</string>
+    <string name="text_age">age</string>
+
+    <string name="action_save">Save</string>
+    <string name="action_insert">Insert</string>
+    <string name="action_delete">Delete</string>
+
+    <string name="gender_unknown">Unknown</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="button_save">save</string>
+    <string name="button_delete">delete</string>
+
+    <string-array name="array_gender_options">
+        <item>@string/gender_female</item>
+        <item>@string/gender_male</item>
+        <item>@string/gender_unknown</item>
+    </string-array>
+</resources>
